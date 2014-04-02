@@ -1,0 +1,143 @@
+{
+  "title": "OCSP attack and defence",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "defence",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "authentication",
+          "id": 8
+        },
+        "2": {
+          "title": "keybased validation",
+          "id": 9
+        }
+      }
+    },
+    "2": {
+      "title": "Intro",
+      "id": 10,
+      "ideas": {
+        "1": {
+          "title": "I'm Dwight Spencer. I hack things for fun and research technology. ",
+          "id": 12
+        },
+        "2": {
+          "title": "One research lead me down the rabbit hole of pourly documentated standards that we trust on a daily basis",
+          "id": 13
+        },
+        "3": {
+          "title": "SSL certificates inherrerts a security flaw of whom to trust",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "This created two  problems",
+              "id": 15,
+              "ideas": {
+                "1": {
+                  "title": "Root CA certs preinstalled in the browser and OS",
+                  "id": 16
+                },
+                "2": {
+                  "title": "How to verify Certificates are still worth of our trust",
+                  "id": 17,
+                  "ideas": {
+                    "1": {
+                      "title": "CRL distribution - big iron",
+                      "id": 18
+                    },
+                    "2": {
+                      "title": "OCSP - CRL on a diet",
+                      "id": 19,
+                      "ideas": {
+                        "1": {
+                          "title": "Background",
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "What is OCSP",
+                              "id": 33
+                            },
+                            "2": {
+                              "title": "Why do we use OCSP",
+                              "id": 34
+                            },
+                            "3": {
+                              "title": "How to fix it",
+                              "id": 35
+                            },
+                            "4": {
+                              "title": "Who is involved in OCSP, SSL",
+                              "id": 36
+                            }
+                          },
+                          "id": 32
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "1.5": {
+          "title": "OH and I work at Firehost, Inc. (Hat tip to kevin Mitnick)",
+          "id": 37
+        }
+      }
+    },
+    "-1": {
+      "title": "attack",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Vectors",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "dns poisioning",
+              "id": 6
+            },
+            "2": {
+              "title": "Rouge OCSP servers",
+              "id": 7
+            }
+          }
+        }
+      }
+    },
+    "-2": {
+      "title": "Why",
+      "id": 20,
+      "ideas": {
+        "1": {
+          "title": "Because our security and anonymity rests solely on the trust level of a key chain pairing",
+          "id": 23
+        },
+        "2": {
+          "title": "These protocols need better documentation and pulled out of workgroup thinktanks that build around NSA blackboxes",
+          "id": 25
+        },
+        "3": {
+          "title": "Think of the children",
+          "id": 27,
+          "ideas": {
+            "1": {
+              "title": "Demo hack on aloneteens.com (community site for teens of broken homes becomes XXX)",
+              "id": 28
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
